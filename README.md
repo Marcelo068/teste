@@ -24,3 +24,6 @@ A escolha por módulos CSS (.module.css) em cada componente permite a aplicaçã
 **Modularidade:** Cada componente e serviço foi isolado em seu próprio módulo, facilitando a manutenção e a escalabilidade. Isso também promove o reuso de componentes e serviços em diferentes partes da aplicação.
 
 **Separação de Responsabilidades:** A lógica de negócios está separada da lógica de exibição, o que segue boas práticas de desenvolvimento de software e facilita testes e manutenção.
+
+## 6. Intruções
+Para configurar o frontend, basta executar "npm i" seguido de "npm start". Isso será suficiente para iniciar a aplicação.
