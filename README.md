@@ -6,9 +6,9 @@ A estrutura segue uma abordagem modular, onde diferentes funcionalidades e compo
 
 - components: Contém subdiretórios para cada componente principal (Map, Search, SideBar), cada um com seus respectivos arquivos de estilo (.module.css) e implementação (.tsx). Isso promove a separação de responsabilidades, onde cada componente gerencia seu próprio escopo de funcionalidades e estilos.
 
-Map: Provavelmente responsável por exibir o mapa e as posições dos equipamentos.
-Search: Gerencia a funcionalidade de busca, permitindo ao usuário filtrar equipamentos.
-SideBar: Exibe a lista de equipamentos, seus estados e histórico, com integração de dropdowns.
+-  Map: Provavelmente responsável por exibir o mapa e as posições dos equipamentos.
+-  Search: Gerencia a funcionalidade de busca, permitindo ao usuário filtrar equipamentos.
+-  SideBar: Exibe a lista de equipamentos, seus estados e histórico, com integração de dropdowns.
 - data: Armazena arquivos JSON com dados estáticos ou simulados, como equipment.json, equipmentModel.json, etc. Esses arquivos são úteis para desenvolvimento local, testes, ou para servir como mock data antes de integrar uma API real.
 
 - services: Contém a lógica de negócios e funções utilitárias. A separação de interfaces (interfaces) em um subdiretório ajuda a manter uma tipagem clara e a separação de preocupações entre contratos (interfaces) e implementação (MapService.ts).
