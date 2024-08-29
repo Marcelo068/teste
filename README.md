@@ -1,3 +1,8 @@
+# Teste AIKO
+
+## Intruções
+Para configurar o frontend, basta executar "npm i" seguido de "npm start". Isso será suficiente para iniciar a aplicação.
+
 ## 1. Estrutura Geral
 A estrutura segue uma abordagem modular, onde diferentes funcionalidades e componentes são isolados em seus próprios diretórios. Isso facilita a manutenção e escalabilidade do projeto.
 
@@ -25,5 +30,3 @@ A escolha por módulos CSS (.module.css) em cada componente permite a aplicaçã
 
 **Separação de Responsabilidades:** A lógica de negócios está separada da lógica de exibição, o que segue boas práticas de desenvolvimento de software e facilita testes e manutenção.
 
-## Intruções
-Para configurar o frontend, basta executar "npm i" seguido de "npm start". Isso será suficiente para iniciar a aplicação.
